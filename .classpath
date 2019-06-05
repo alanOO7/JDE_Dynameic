@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8">
+		<attributes>
+			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="JDE_Dynamic/config"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="jar/ApplicationAPIs_JAR.jar"/>
+	<classpathentry kind="lib" path="jar/ApplicationLogic_JAR.jar"/>
+	<classpathentry kind="lib" path="jar/Base_JAR.jar"/>
+	<classpathentry kind="lib" path="jar/BizLogicContainer_JAR.jar"/>
+	<classpathentry kind="lib" path="jar/BizLogicContainerClient_JAR.jar"/>
+	<classpathentry kind="lib" path="jar/BusinessLogicServices_JAR.jar"/>
+	<classpathentry kind="lib" path="jar/castor.jar"/>
+	<classpathentry kind="lib" path="jar/commons-codec.jar"/>
+	<classpathentry kind="lib" path="jar/commons-lang-2.6.jar"/>
+	<classpathentry kind="lib" path="jar/commons-logging.jar"/>
+	<classpathentry kind="lib" path="jar/Connector.jar"/>
+	<classpathentry kind="lib" path="jar/db2j.jar"/>
+	<classpathentry kind="lib" path="jar/db2jcc_license_cu.jar"/>
+	<classpathentry kind="lib" path="jar/db2jcc.jar"/>
+	<classpathentry kind="lib" path="jar/db2jcc4.jar"/>
+	<classpathentry kind="lib" path="jar/EventProcessor_EJB.jar"/>
+	<classpathentry kind="lib" path="jar/EventProcessor_JAR.jar"/>
+	<classpathentry kind="lib" path="jar/Generator_JAR.jar"/>
+	<classpathentry kind="lib" path="jar/httpclient.jar"/>
+	<classpathentry kind="lib" path="jar/httpcore.jar"/>
+	<classpathentry kind="lib" path="jar/httpmime.jar"/>
+	<classpathentry kind="lib" path="jar/j2ee1_3.jar"/>
+	<classpathentry kind="lib" path="jar/JdbjBase_JAR.jar"/>
+	<classpathentry kind="lib" path="jar/JdbjInterfaces_JAR.jar"/>
+	<classpathentry kind="lib" path="jar/JdeNet_JAR.jar"/>
+	<classpathentry kind="lib" path="jar/jmxremote_optional.jar"/>
+	<classpathentry kind="lib" path="jar/jmxremote.jar"/>
+	<classpathentry kind="lib" path="jar/jmxri.jar"/>
+	<classpathentry kind="lib" path="jar/jt400.jar"/>
+	<classpathentry kind="lib" path="jar/junit.jar"/>
+	<classpathentry kind="lib" path="jar/ManagementAgent_JAR.jar"/>
+	<classpathentry kind="lib" path="jar/Metadata.jar"/>
+	<classpathentry kind="lib" path="jar/MetadataInterface.jar"/>
+	<classpathentry kind="lib" path="jar/ojdbc5.jar"/>
+	<classpathentry kind="lib" path="jar/ojdbc6.jar"/>
+	<classpathentry kind="lib" path="jar/PMApi_JAR.jar"/>
+	<classpathentry kind="lib" path="jar/servlet.jar"/>
+	<classpathentry kind="lib" path="jar/Spec_JAR.jar"/>
+	<classpathentry kind="lib" path="jar/sqljdbc.jar"/>
+	<classpathentry kind="lib" path="jar/sqljdbc4.jar"/>
+	<classpathentry kind="lib" path="jar/System_JAR.jar"/>
+	<classpathentry kind="lib" path="jar/SystemInterfaces_JAR.jar"/>
+	<classpathentry kind="lib" path="jar/xerces.jar"/>
+	<classpathentry kind="lib" path="jar/xml-apis.jar"/>
+	<classpathentry kind="lib" path="jar/xmlparserv2.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

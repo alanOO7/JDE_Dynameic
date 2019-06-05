@@ -1,0 +1,36 @@
+jdbcversions.txt
+
+This release is not distributed with JDBC drivers.  They are provided
+here for internal use.  This directory contains the following JDBC drivers,
+which are consistent with the minimum technical requirements (MTR) for this
+release:
+
+* iSeries (formerly AS/400, System i):  
+  
+  JDBC driver name:     IBM Toolbox for Java
+  JDBC driver version:  7.1.0.7
+  Main-Class:			com.ibm.as400.access.AS400JDBCDriver
+  File(s) used:         jt400.jar
+
+* Oracle (all versions of Oracle Database with JDK 1.6):
+
+  JDBC driver name:     Oracle
+  JDBC driver version:  11.2.0.3.0
+  Main-Class:			oracle.jdbc.OracleDriver
+  File(s) used:         ojdbc6.jar (JDK 1.6) and ojdbc5.jar (JDK 1.5)
+
+* SQL Server 200x (all versions of SQL Server Database):
+
+  JDBC driver name:     Microsoft SQL Server JDBC Driver 3.0
+  JDBC driver version:  Microsoft SQL Server JDBC Driver 3.0 April 2010
+  Main-Class:			com.microsoft.sqlserver.jdbc.SQLServerDriver
+  File(s) used:         sqljdbc4.jar (JDK 1.6), sqljdbc.jar (JDK 1.5)
+
+* UDB:
+
+  JDBC driver name:     IBM UDB Type 4 JDBC driver (Type 2 is Legacy Driver)
+  JDBC driver version:  9.1.x
+  Main-Class:			com.ibm.db2.jcc.DB2Driver for Type 4 Driver, COM.ibm.db2.jdbc.app.DB2Driver for Type 2 Legacy Driver
+  File(s) used:         db2jcc4.jar (JDK 1.6), db2jcc.jar and db2jcc_license_cu.jar (JDK 1.5), db2java.zip (Type 2 Legacy Driver)
+
+EOF
